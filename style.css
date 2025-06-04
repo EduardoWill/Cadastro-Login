@@ -67,3 +67,18 @@ body{
 .form button:hover{
     background-color: rgba(0, 255, 255, 0.671)
 }
+
+
+/*Mensagem de erro*/
+.botao-campo p{
+color:red;
+    font-size: 1em;
+    visibility: hidden;
+}
+.botao-campo.error input{
+    border-color:red;
+}
+.botao-campo.error p{
+    visibility: visible;
+}
+
